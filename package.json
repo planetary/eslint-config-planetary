@@ -1,0 +1,39 @@
+{
+  "name": "eslint-config-planetary",
+  "version": "0.1.0",
+  "description": "Planetary's ESLint config, following our styleguide",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm run --silent tests-only"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/planetary/eslint-config-planetary.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "planetary",
+    "javascript",
+    "styleguide"
+  ],
+  "author": "Andrew Coelho <info@andrewcoelho.com> (http://andrewcoelho.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/planetary/eslint-config-planetary/issues"
+  },
+  "homepage": "https://github.com/planetary/eslint-config-planetary#readme",
+  "devDependencies": {
+    "eslint": "^3.2.2",
+    "eslint-find-rules": "^1.13.0",
+    "eslint-plugin-import": "^1.12.0",
+    "eslint-plugin-jsx-a11y": "^2.1.0",
+    "eslint-plugin-react": "^6.0.0",
+    "in-publish": "^2.0.0",
+    "safe-publish-latest": "^1.0.1"
+  }
+}
