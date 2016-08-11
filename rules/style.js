@@ -66,8 +66,9 @@ module.exports = {
         // require a space before & after certain keywords
         'keyword-spacing': [1, {
             before: true,
-            after: false,
+            after: true,
             overrides: {
+                'if': {after: false},
                 'return': {after: true},
                 'throw': {after: true},
                 'case': {after: true}
